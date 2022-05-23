@@ -55,13 +55,21 @@ const Home = () => {
   const getDirectionOptions = (data) => {
     let directionOptions = [];
     directionOptions.push(
-      <option value={"defaultDirectionOption1"} key={"defaultDirectionOption1"}>
+      <option
+        data-testid="direction-select-option"
+        value={"defaultDirectionOption1"}
+        key={"defaultDirectionOption1"}
+      >
         {"Select direction"}
       </option>
     );
     forEach(data, (direction) => {
       directionOptions.push(
-        <option value={direction.direction_id} key={direction.direction_id}>
+        <option
+          data-testid="direction-select-option"
+          value={direction.direction_id}
+          key={direction.direction_id}
+        >
           {direction.direction_name}
         </option>
       );

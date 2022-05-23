@@ -1,11 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Direction.scss";
-import { useParams, Outlet, useOutletContext } from "react-router-dom";
+import { Outlet, useOutletContext } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
-const Context = React.createContext({});
 
 const Direction = () => {
   const [directionOptions, handleDirectionChange, selectedDirection, stops] =
