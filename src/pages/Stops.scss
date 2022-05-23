@@ -1,0 +1,13 @@
+.stops {
+  font-size: 20px;
+  .card-header {
+    padding-left: 3rem;
+    font-weight: bold;
+  }
+  .list-group {
+    max-height: 18rem;
+    overflow-y: scroll;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
