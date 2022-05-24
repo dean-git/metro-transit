@@ -15,8 +15,6 @@ depending on the browser.  Here are some instructions on a couple of options:
          select “Disable Cross-Origin Restrictions” from the develop menu;
 - Firefox: install `CORS Everywhere` plugin
 
-
-
 ## Steps to build and run the application
 
 Clone the project from github:
@@ -34,7 +32,7 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.  This will run the full test suite.\
+Launches the test runner in the interactive watch mode.  Press 'a' to run the full test suite with watcher running. Follow provided intructions for other options.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
